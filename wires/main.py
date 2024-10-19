@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.datasets import face
 import scipy.ndimage.morphology as snm
 
 def neighbours2(y,x):
