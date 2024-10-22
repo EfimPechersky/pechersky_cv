@@ -73,10 +73,9 @@ def maxel(arr):
 
 
 image=np.load("ps.npy.txt")
-
-print(image.shape)
 tpimage = two_pass(image)
 objnum = maxel(tpimage)
+print("Всего объектов: "+str(objnum))
 structlist=[]
 numlist=[]
 for i in  range(1,objnum+1):
